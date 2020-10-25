@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sunhwee.com/about/index.html</loc>
+    
+    <lastmod>2020-10-25T02:38:09.448Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sunhwee.com/archives/index.html</loc>
+    
+    <lastmod>2020-10-25T02:37:49.027Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://sunhwee.com/2020/10/25/hellow/</loc>
+    
+    <lastmod>2020-10-25T02:28:10.719Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://sunhwee.com/2019/08/27/blog-open-source/</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
@@ -23,7 +44,7 @@
   </url>
   
   <url>
-    <loc>https://sunhwee.com/about/index.html</loc>
+    <loc>https://sunhwee.com/contact/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
@@ -37,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://sunhwee.com/archives/index.html</loc>
+    <loc>https://sunhwee.com/galleries/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
@@ -45,20 +66,6 @@
   
   <url>
     <loc>https://sunhwee.com/friends/index.html</loc>
-    
-    <lastmod>2020-06-30T18:09:44.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunhwee.com/contact/index.html</loc>
-    
-    <lastmod>2020-06-30T18:09:44.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://sunhwee.com/galleries/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
