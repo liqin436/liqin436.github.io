@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liqin436.github.io/2020/10/27/git/</loc>
+    
+    <lastmod>2020-10-26T16:56:16.023Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liqin436.github.io/2020/10/26/jian-lai-yu-lu/</loc>
     
     <lastmod>2020-10-26T13:07:05.198Z</lastmod>
@@ -58,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/categories/index.html</loc>
+    <loc>https://liqin436.github.io/friends/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
@@ -72,14 +79,14 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/friends/index.html</loc>
+    <loc>https://liqin436.github.io/tags/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/tags/index.html</loc>
+    <loc>https://liqin436.github.io/categories/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
