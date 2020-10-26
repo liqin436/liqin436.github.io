@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-10-26T05:06:45.130Z</updated>
+  <updated>2020-10-26T13:07:05.198Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>剑来语录</title>
+    <link href="https://liqin436.github.io/2020/10/26/jian-lai-yu-lu/"/>
+    <id>https://liqin436.github.io/2020/10/26/jian-lai-yu-lu/</id>
+    <published>2020-10-26T11:21:08.000Z</published>
+    <updated>2020-10-26T13:07:05.198Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;1、某些人和事，哪怕是路边的风景，可是只要看一眼，依然会让人觉得很美好。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2、不要把陌生人的些许善意，视为珍稀的瑰宝；却把身边亲近人的全部付出，当做天经地义的事情，对其视而不见。&lt;
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://liqin436.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="剑来" scheme="https://liqin436.github.io/tags/%E5%89%91%E6%9D%A5/"/>
+    
+  </entry>
+  
+  <entry>
     <title>正则表达式</title>
     <link href="https://liqin436.github.io/2020/10/25/zheng-ze-biao-da-shi/"/>
     <id>https://liqin436.github.io/2020/10/25/zheng-ze-biao-da-shi/</id>
     <published>2020-10-25T12:26:52.000Z</published>
-    <updated>2020-10-26T05:06:45.130Z</updated>
+    <updated>2020-10-26T13:04:57.662Z</updated>
     
     <summary type="html">
     
@@ -47,7 +77,7 @@
     <link href="https://liqin436.github.io/2020/10/25/hellow/"/>
     <id>https://liqin436.github.io/2020/10/25/hellow/</id>
     <published>2020-10-25T02:23:27.000Z</published>
-    <updated>2020-10-25T16:19:32.197Z</updated>
+    <updated>2020-10-26T11:22:21.401Z</updated>
     
     <summary type="html">
     
