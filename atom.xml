@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-10-27T03:05:04.465Z</updated>
+  <updated>2020-10-27T15:59:16.709Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>python爬虫</title>
+    <link href="https://liqin436.github.io/2020/10/27/python-pa-chong/"/>
+    <id>https://liqin436.github.io/2020/10/27/python-pa-chong/</id>
+    <published>2020-10-27T15:04:13.000Z</published>
+    <updated>2020-10-27T15:59:16.709Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;养成习惯，先赞后看！！！&lt;/strong&gt;&lt;br&gt; 不用于任何商业价值，只是自己娱乐。&lt;br&gt; 否则 &lt;strong&gt;爬虫爬的好，牢饭吃到饱。&lt;/strong&gt;&lt;br&gt; 这是我们这次爬取的网址：&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://liqin436.github.io/categories/python/"/>
+    
+      <category term="爬虫" scheme="https://liqin436.github.io/categories/python/%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="python" scheme="https://liqin436.github.io/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>git的一些基本操作</title>
