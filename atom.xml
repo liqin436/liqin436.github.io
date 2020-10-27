@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-10-26T16:56:16.023Z</updated>
+  <updated>2020-10-27T03:05:04.465Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>git</title>
+    <title>git的一些基本操作</title>
     <link href="https://liqin436.github.io/2020/10/27/git/"/>
     <id>https://liqin436.github.io/2020/10/27/git/</id>
     <published>2020-10-26T16:08:30.000Z</published>
-    <updated>2020-10-26T16:56:16.023Z</updated>
+    <updated>2020-10-27T03:05:04.465Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,12 @@
     
     </summary>
     
+      <category term="野生技术产业" scheme="https://liqin436.github.io/categories/%E9%87%8E%E7%94%9F%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A/"/>
+    
+    
+      <category term="git" scheme="https://liqin436.github.io/tags/git/"/>
+    
+      <category term="github" scheme="https://liqin436.github.io/tags/github/"/>
     
   </entry>
   
