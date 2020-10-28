@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-10-28T10:44:46.234Z</updated>
+  <updated>2020-10-28T12:30:50.907Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【STM32】STM32 CubeMx使用教程一--安装教程</title>
+    <link href="https://liqin436.github.io/2020/10/28/stm32/"/>
+    <id>https://liqin436.github.io/2020/10/28/stm32/</id>
+    <published>2020-10-28T12:06:19.000Z</published>
+    <updated>2020-10-28T12:30:50.907Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#一、STM32CubeMX 简介&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;1、STM32CubeMX 是 ST 意法半导体近几年来大力推荐的STM32 芯片图形化配置工具，目的就是为了方便开发者， 允许用户使用图形化向导生成C
+        
+      
+    
+    </summary>
+    
+      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    
+      <category term="stm32" scheme="https://liqin436.github.io/tags/stm32/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo文件参数及其相关说明</title>
@@ -47,7 +74,7 @@
     <link href="https://liqin436.github.io/2020/10/28/dan-pian-ji/"/>
     <id>https://liqin436.github.io/2020/10/28/dan-pian-ji/</id>
     <published>2020-10-28T07:59:05.000Z</published>
-    <updated>2020-10-28T10:19:42.429Z</updated>
+    <updated>2020-10-28T12:10:34.115Z</updated>
     
     <summary type="html">
     
@@ -62,6 +89,10 @@
     
     </summary>
     
+      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    
+      <category term="proteus" scheme="https://liqin436.github.io/tags/proteus/"/>
     
   </entry>
   
@@ -70,7 +101,7 @@
     <link href="https://liqin436.github.io/2020/10/27/python-pa-chong/"/>
     <id>https://liqin436.github.io/2020/10/27/python-pa-chong/</id>
     <published>2020-10-27T15:04:13.000Z</published>
-    <updated>2020-10-27T15:59:16.709Z</updated>
+    <updated>2020-10-28T12:34:06.326Z</updated>
     
     <summary type="html">
     
@@ -156,7 +187,7 @@
     <link href="https://liqin436.github.io/2020/10/25/zheng-ze-biao-da-shi/"/>
     <id>https://liqin436.github.io/2020/10/25/zheng-ze-biao-da-shi/</id>
     <published>2020-10-25T12:26:52.000Z</published>
-    <updated>2020-10-28T10:35:27.384Z</updated>
+    <updated>2020-10-28T12:32:59.805Z</updated>
     
     <summary type="html">
     
@@ -170,10 +201,10 @@
     
     </summary>
     
-      <category term="软件安装与配置" scheme="https://liqin436.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
+      <category term="python" scheme="https://liqin436.github.io/categories/python/"/>
     
     
-      <category term="Python" scheme="https://liqin436.github.io/tags/Python/"/>
+      <category term="python" scheme="https://liqin436.github.io/tags/python/"/>
     
   </entry>
   
@@ -182,7 +213,7 @@
     <link href="https://liqin436.github.io/2020/10/25/hellow/"/>
     <id>https://liqin436.github.io/2020/10/25/hellow/</id>
     <published>2020-10-25T02:23:27.000Z</published>
-    <updated>2020-10-26T11:22:21.401Z</updated>
+    <updated>2020-10-28T12:33:47.611Z</updated>
     
     <summary type="html">
     
