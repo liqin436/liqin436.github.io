@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liqin436.github.io/2020/10/26/jian-lai-yu-lu/</loc>
+    
+    <lastmod>2020-10-28T12:38:00.315Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liqin436.github.io/2020/10/28/dan-pian-ji/</loc>
+    
+    <lastmod>2020-10-28T12:36:37.852Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liqin436.github.io/2020/10/27/python-pa-chong/</loc>
     
     <lastmod>2020-10-28T12:34:06.326Z</lastmod>
@@ -30,13 +44,6 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/2020/10/28/dan-pian-ji/</loc>
-    
-    <lastmod>2020-10-28T12:10:34.115Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://liqin436.github.io/2020/10/28/hexo-wen-jian-can-shu-ji-qi-xiang-guan-shuo-ming/</loc>
     
     <lastmod>2020-10-28T10:44:46.234Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>https://liqin436.github.io/2020/10/27/git/</loc>
     
     <lastmod>2020-10-27T03:05:04.465Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liqin436.github.io/2020/10/26/jian-lai-yu-lu/</loc>
-    
-    <lastmod>2020-10-26T13:07:05.198Z</lastmod>
     
   </url>
   
@@ -107,13 +107,6 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/galleries/index.html</loc>
-    
-    <lastmod>2020-06-30T18:09:44.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://liqin436.github.io/tags/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
@@ -121,7 +114,7 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%873/index.html</loc>
+    <loc>https://liqin436.github.io/galleries/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
@@ -129,6 +122,13 @@
   
   <url>
     <loc>https://liqin436.github.io/galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%874/index.html</loc>
+    
+    <lastmod>2020-06-30T18:09:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liqin436.github.io/galleries/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%873/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
