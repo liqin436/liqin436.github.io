@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-10-27T15:59:16.709Z</updated>
+  <updated>2020-10-28T10:41:23.364Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo文件参数及其相关说明</title>
+    <link href="https://liqin436.github.io/2020/10/28/hexo-wen-jian-can-shu-ji-qi-xiang-guan-shuo-ming/"/>
+    <id>https://liqin436.github.io/2020/10/28/hexo-wen-jian-can-shu-ji-qi-xiang-guan-shuo-ming/</id>
+    <published>2020-10-28T10:37:28.000Z</published>
+    <updated>2020-10-28T10:41:23.364Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;section class=&quot;ouvJEz&quot;&gt;&lt;h1 class=&quot;_1RuRku&quot;&gt;hexo文件参数及其相关说明&lt;/h1&gt;&lt;div class=&quot;rEsl9f&quot;&gt;&lt;div class=&quot;_2mYfmT&quot;&gt;&lt;a class=&quot;_1OhGeD&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://liqin436.github.io/categories/hexo/"/>
+    
+    
+      <category term="前端" scheme="https://liqin436.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PROTEUS原理图元器件库详细说明</title>
+    <link href="https://liqin436.github.io/2020/10/28/dan-pian-ji/"/>
+    <id>https://liqin436.github.io/2020/10/28/dan-pian-ji/</id>
+    <published>2020-10-28T07:59:05.000Z</published>
+    <updated>2020-10-28T10:19:42.429Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;#Proteus 元件名称对照1&lt;br&gt;&lt;strong&gt;&lt;em&gt;元件名称 中文名 说明&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;7407        驱动门&lt;br&gt;1N914        二极管&lt;br&gt;74Ls00        与非门&lt;br&gt;74LS04     
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>python爬虫</title>
@@ -107,7 +156,7 @@
     <link href="https://liqin436.github.io/2020/10/25/zheng-ze-biao-da-shi/"/>
     <id>https://liqin436.github.io/2020/10/25/zheng-ze-biao-da-shi/</id>
     <published>2020-10-25T12:26:52.000Z</published>
-    <updated>2020-10-26T13:04:57.662Z</updated>
+    <updated>2020-10-28T10:35:27.384Z</updated>
     
     <summary type="html">
     
