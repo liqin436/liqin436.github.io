@@ -855,13 +855,13 @@ $ git config --global user.email "email@example.com"</code></pre><h2 id="3-创�
 <h3 id="4-2工作区和暂存区"><a href="#4-2工作区和暂存区" class="headerlink" title="4.2工作区和暂存区"></a>4.2工作区和暂存区</h3><p>Git和其他版本控制系统如SVN的一个不同之处就是有暂存区的概念。</p>
 <p>先来看名词解释。<br><strong>工作区（Working Directory）</strong></p>
 <p>就是你在电脑里能看到的目录，比如我的learngit文件夹就是一个工作区：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://static.liaoxuefeng.com/files/attachments/919021113952544/0" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://static.liaoxuefeng.com/files/attachments/919021113952544/0" alt></p>
 <p><strong>版本库（Repository）</strong></p>
 <p>工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。</p>
 <p>Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫</p>
 <p>index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指</p>
 <p>向master的一个指针叫HEAD。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://static.liaoxuefeng.com/files/attachments/919020037470528/0" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://static.liaoxuefeng.com/files/attachments/919020037470528/0" alt></p>
 <p>分支和HEAD的概念我们以后再讲。</p>
 <p>前面讲了我们把文件往Git版本库里添加的时候，是分两步执行的：</p>
 <p>第一步是用git add把文件添加进去，实际上就是把文件修改添加到暂存区；</p>
@@ -895,7 +895,7 @@ Changes to be committed:
 
     new file:   LICENSE
     modified:   readme.txt</code></pre><p>现在，暂存区的状态就变成这样了：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://static.liaoxuefeng.com/files/attachments/919020074026336/0" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://static.liaoxuefeng.com/files/attachments/919020074026336/0" alt></p>
 <p>所以，git add命令实际上就是把要提交的所有修改放到暂存区（Stage），然后，执行git commit就可以一次性把暂存区的所有修改提交到分支。</p>
 <pre><code>$ git commit -m "understand how stage works"
 [master e43a48b] understand how stage works
@@ -904,7 +904,7 @@ Changes to be committed:
 <pre><code>$ git status
 On branch master
 nothing to commit, working tree clean</code></pre><p>现在版本库变成了这样，暂存区就没有任何内容了：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://static.liaoxuefeng.com/files/attachments/919020100829536/0" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://static.liaoxuefeng.com/files/attachments/919020100829536/0" alt></p>
 <h3 id="4-3管理修改"><a href="#4-3管理修改" class="headerlink" title="4.3管理修改"></a>4.3管理修改</h3><p>第一次修改 -&gt; <code>git add</code> -&gt; 第二次修改 -&gt; <code>git commit</code></p>
 <p>Git管理的是修改，当你用<code>git add</code>命令后，在工作区的第一次修改被放入暂存区，准备提交，但是，在工作区的第二次修改并没有放入暂存区，所以，<code>git commit</code>只负责把暂存区的修改提交了，也就是第一次的修改被提交了，第二次的修改不会被提交。</p>
 <p>那怎么提交第二次修改呢？你可以继续<code>git add</code>再<code>git commit</code>，也可以别着急提交第一次修改，先<code>git add</code>第二次修改，再<code>git commit</code>，就相当于把两次修改合并后一块提交了：</p>
@@ -1973,5 +1973,5 @@ $(function () {
             </script>
         
 
-    <script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
 </html>
