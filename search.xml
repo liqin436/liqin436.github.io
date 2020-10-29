@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>git简述</title>
+      <link href="/2020/10/29/git-jian-shu/"/>
+      <url>/2020/10/29/git-jian-shu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="注册gitee账号"><a href="#注册gitee账号" class="headerlink" title="注册gitee账号"></a>注册gitee账号</h2><p><a href="https://blog.csdn.net/qq_43567345/article/details/105416642" target="_blank" rel="noopener">https://blog.csdn.net/qq_43567345/article/details/105416642</a></p><h2 id="git下载安装"><a href="#git下载安装" class="headerlink" title="git下载安装"></a>git下载安装</h2><p>这里有详细的安装步骤，按照上面一步步来就可以了<br><a href="https://blog.csdn.net/qq_32786873/article/details/80570783" target="_blank" rel="noopener">https://blog.csdn.net/qq_32786873/article/details/80570783</a></p><h2 id="git相关配置-下载安装完后需要做的"><a href="#git相关配置-下载安装完后需要做的" class="headerlink" title="git相关配置(下载安装完后需要做的)"></a>git相关配置(下载安装完后需要做的)</h2><p>第一次使用需要配置这些，以后就不需要了</p><p>配置个人的用户名称和电子邮件地址（全局设置）：</p><pre><code>git config --global user.name "人间灯火阑珊"git config --global user.email "1106656864@qq.com"</code></pre><p><em>下面这一条请忽略（解决gitee和github共存问题，在最后会提到）</em><br>配置个人的用户名称和电子邮件地址（局部设置）：</p><pre><code>git config  user.name "人间灯火阑珊"git config  user.email "1106656864@qq.com"</code></pre><h2 id="Git创建仓库"><a href="#Git创建仓库" class="headerlink" title="Git创建仓库"></a>Git创建仓库</h2><ul><li>桌面或者哪里随便新建一个文件夹</li><li>进入文件夹，右键git bash here,会出现一个命令框</li><li>输入<code>git init</code>,生成<code>.git</code>目录</li></ul><h2 id="ssh公钥设置"><a href="#ssh公钥设置" class="headerlink" title="ssh公钥设置"></a>ssh公钥设置</h2><p><strong><em>公钥其实可以不设置，设置后会更安全</em></strong></p><p>由于你的本地 Git 仓库和 GitHub 仓库之间的传输是通过SSH加密的，所以我们需要配置验证信息：</p><p>使用以下命令生成 SSH Key：<br><code>$ ssh-keygen -t rsa -C "youremail@example.com"</code></p><p>后面的 <a href="mailto:your_email@youremail.com" target="_blank" rel="noopener">your_email@youremail.com</a> 改为你在 gitee 上注册的邮箱，之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。</p><p>成功的话会在当前文件夹生成一个id_rsa.pub文件，进去，打id_rsa.pub，复制里面的 key。<br>回到 github 上，进入 Account =&gt; Settings（账户配置）。</p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://m.runoob.com/wp-content/uploads/2015/03/48840BF0-992F-4CCC-A388-15CB74819D88.jpg" alt=""></p><blockquote><p>左边选择 SSH and GPG keys，然后点击 New SSH key 按钮,title 设置标题，可以随便填，粘贴在你电脑上生成的 key</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://www.runoob.com/wp-content/uploads/2015/03/B0589847-A498-4415-8700-252BDE1B20C0.jpg" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://m.runoob.com/wp-content/uploads/2015/03/106AD534-A38A-47F3-88A3-B7BE3F2FEEF1.jpg" alt=""></p><h2 id="与gitee建立连接"><a href="#与gitee建立连接" class="headerlink" title="与gitee建立连接"></a>与gitee建立连接</h2><ul><li>命令行输入</li><li><code>git remote add origin https://gitee.com/the-light-of-the-world/test2.git</code>，后面加的是你的gitee仓库地址，origin是该新建远程库的名称。</li><li><code>git remote -v</code>查看关联的远程库</li></ul><h2 id="上传本地代码到gitee"><a href="#上传本地代码到gitee" class="headerlink" title="上传本地代码到gitee"></a>上传本地代码到gitee</h2><ul><li>按照下面代码一步步来</li><li><code>git add 1.txt</code> （1.txt为要上传的文件名）</li><li>*请忽略这句 ，<code>git add .</code>( 添加目录下所有发生改变的文件)</li><li><code>git commit -m "ljj"</code> (分号里面的为备注，自己随意)</li><li><code>git remote add origin https://gitee.com/the-light-of-the-world/test2.git</code> (后面地址为你gitee上面仓库地址)</li><li><code>git push -u origin master</code> （至此文件上传成功，到gitee上面的仓库就可以查看到刚上传的文件了）</li></ul><p><strong><em>至此相关步骤已经完成，后面是我自己遇到的一些问题的记录。</em></strong></p><hr><hr><hr><p>删除远程仓库</p><p>删除远程仓库你可以使用命令：</p><pre><code>git remote rm [别名]</code></pre><p>实例</p><pre><code>$ git remote -vorigin    git@github.com:tianqixin/runoob-git-test.git (fetch)origin    git@github.com:tianqixin/runoob-git-test.git (push)</code></pre><h2 id="添加仓库-origin2"><a href="#添加仓库-origin2" class="headerlink" title="添加仓库 origin2"></a>添加仓库 origin2</h2><pre><code>$ git remote -vorigin    git@github.com:tianqixin/runoob-git-test.git (fetch)origin    git@github.com:tianqixin/runoob-git-test.git (push)origin2    git@github.com:tianqixin/runoob-git-test.git (fetch)origin2    git@github.com:tianqixin/runoob-git-test.git (push)</code></pre><h2 id="删除仓库-origin2"><a href="#删除仓库-origin2" class="headerlink" title="删除仓库 origin2"></a>删除仓库 origin2</h2><pre><code>$ git remote rm origin2$ git remote -vorigin    git@github.com:tianqixin/runoob-git-test.git (fetch)origin    git@github.com:tianqixin/runoob-git-test.git (push)</code></pre><p>##下载码云代码<br>新建一个目录，从码云上把上传的代码下载下来：</p><pre><code>git clone https://gitee.com/xxxxx/demo.git</code></pre><blockquote><p>关于gitee和github在同一台电脑共存的相关问题</p></blockquote><p>首先，一开始去连接一个远程库的时候都会用git生成一个ssh公钥用于安全连接gitee，后来的摸索中发现就先没生成公钥去连接也是可以的，可能就是安全性得不到保障。</p><p>有些东西我也没有搞懂后面会进一步更新。</p><p>就目前而言，我的github和gitee用的是同一个ssh公钥暂时没发生什么问题，<br>一切正常。</p><p>这里了附上连接有对ssh公钥的详细描述：<br><a href="https://blog.csdn.net/narutomst/article/details/106836495" target="_blank" rel="noopener">https://blog.csdn.net/narutomst/article/details/106836495</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 野生技术产业 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> github </tag>
+            
+            <tag> gitee </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>【STM32】STM32 CubeMx使用教程一--安装教程</title>
       <link href="/2020/10/28/stm32/"/>
       <url>/2020/10/28/stm32/</url>

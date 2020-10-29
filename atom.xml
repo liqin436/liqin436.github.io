@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-10-28T12:30:50.907Z</updated>
+  <updated>2020-10-29T05:45:48.950Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git简述</title>
+    <link href="https://liqin436.github.io/2020/10/29/git-jian-shu/"/>
+    <id>https://liqin436.github.io/2020/10/29/git-jian-shu/</id>
+    <published>2020-10-29T04:13:50.000Z</published>
+    <updated>2020-10-29T05:45:48.950Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;注册gitee账号&quot;&gt;&lt;a href=&quot;#注册gitee账号&quot; class=&quot;headerlink&quot; title=&quot;注册gitee账号&quot;&gt;&lt;/a&gt;注册gitee账号&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="野生技术产业" scheme="https://liqin436.github.io/categories/%E9%87%8E%E7%94%9F%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A/"/>
+    
+    
+      <category term="git" scheme="https://liqin436.github.io/tags/git/"/>
+    
+      <category term="github" scheme="https://liqin436.github.io/tags/github/"/>
+    
+      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
+    
+  </entry>
   
   <entry>
     <title>【STM32】STM32 CubeMx使用教程一--安装教程</title>
