@@ -1,6 +1,6 @@
+https://liqin436.github.io/2020/10/30/stm32-ruan-jian-kai-fa/
 https://liqin436.github.io/2020/10/29/stm32-biao-zhun-ku-xia-zai/
 https://liqin436.github.io/2020/10/29/snipaste/
-https://liqin436.github.io/2020/10/29/picgo-tu-chuang-gitee/
 https://liqin436.github.io/2020/10/29/git-jian-shu/
 https://liqin436.github.io/2020/10/28/stm32/
 https://liqin436.github.io/2020/10/28/hexo-wen-jian-can-shu-ji-qi-xiang-guan-shuo-ming/

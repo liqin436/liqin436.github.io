@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-10-29T13:54:43.597Z</updated>
+  <updated>2020-10-30T11:40:32.364Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>STM32软件开发</title>
+    <link href="https://liqin436.github.io/2020/10/30/stm32-ruan-jian-kai-fa/"/>
+    <id>https://liqin436.github.io/2020/10/30/stm32-ruan-jian-kai-fa/</id>
+    <published>2020-10-30T05:00:20.000Z</published>
+    <updated>2020-10-30T11:40:32.364Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;&lt;em&gt;stm32f103c8t6&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;MDK-Keil开发环境&quot;&gt;&lt;a href=&quot;#MDK-Keil开发环境&quot; class=&quot;headerlink&quot; title=&quot;MDK
+        
+      
+    
+    </summary>
+    
+      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    
+      <category term="stm32" scheme="https://liqin436.github.io/tags/stm32/"/>
+    
+  </entry>
   
   <entry>
     <title>stm32标准库下载</title>
@@ -67,36 +94,6 @@
       <category term="Snipaste" scheme="https://liqin436.github.io/tags/Snipaste/"/>
     
       <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PicGo图床gitee</title>
-    <link href="https://liqin436.github.io/2020/10/29/picgo-tu-chuang-gitee/"/>
-    <id>https://liqin436.github.io/2020/10/29/picgo-tu-chuang-gitee/</id>
-    <published>2020-10-29T08:42:04.000Z</published>
-    <updated>2020-10-29T13:50:36.244Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;前言&lt;/strong&gt;：深感在线博客的编辑器坑太多了，文档丢失、必须联网、可移植性太差，所以开始寻找可替代的方案。&lt;/p&gt;
-&lt;h5&gt;
-&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="软件安装与配置" scheme="https://liqin436.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
-    
-    
-      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
-    
-      <category term="PicGo" scheme="https://liqin436.github.io/tags/PicGo/"/>
     
   </entry>
   
