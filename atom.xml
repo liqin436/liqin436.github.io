@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-10-30T12:01:06.497Z</updated>
+  <updated>2020-11-02T13:45:11.060Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>串口Isp下载原理</title>
+    <link href="https://liqin436.github.io/2020/11/02/chuan-kou-isp-xia-zai-yuan-li/"/>
+    <id>https://liqin436.github.io/2020/11/02/chuan-kou-isp-xia-zai-yuan-li/</id>
+    <published>2020-11-02T13:04:56.000Z</published>
+    <updated>2020-11-02T13:45:11.060Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;如何用串口下载程序&quot;&gt;&lt;a href=&quot;#如何用串口下载程序&quot; class=&quot;headerlink&quot; title=&quot;如何用串口下载程序&quot;&gt;&lt;/a&gt;如何用串口下载程序&lt;/h1&gt;&lt;h2 id=&quot;1-安装USB转串口驱动&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    
+      <category term="stm32" scheme="https://liqin436.github.io/tags/stm32/"/>
+    
+  </entry>
   
   <entry>
     <title>STM32软件开发</title>
@@ -91,9 +117,9 @@
       <category term="软件安装与配置" scheme="https://liqin436.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
     
     
-      <category term="Snipaste" scheme="https://liqin436.github.io/tags/Snipaste/"/>
-    
       <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
+    
+      <category term="Snipaste" scheme="https://liqin436.github.io/tags/Snipaste/"/>
     
   </entry>
   
@@ -119,11 +145,11 @@
       <category term="野生技术产业" scheme="https://liqin436.github.io/categories/%E9%87%8E%E7%94%9F%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A/"/>
     
     
-      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
-    
       <category term="git" scheme="https://liqin436.github.io/tags/git/"/>
     
       <category term="github" scheme="https://liqin436.github.io/tags/github/"/>
+    
+      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
     
   </entry>
   
