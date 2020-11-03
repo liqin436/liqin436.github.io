@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://liqin436.github.io/2020/10/27/git/</loc>
+    <lastmod>2020-11-03</lastmod>
+  </url>  <url>
     <loc>https://liqin436.github.io/2020/11/03/stm32cubemx-jian-dan-shi-yong-jie-shao/</loc>
     <lastmod>2020-11-03</lastmod>
   </url>  <url>
@@ -39,8 +42,5 @@
   </url>  <url>
     <loc>https://liqin436.github.io/2020/10/28/hexo-wen-jian-can-shu-ji-qi-xiang-guan-shuo-ming/</loc>
     <lastmod>2020-10-28</lastmod>
-  </url>  <url>
-    <loc>https://liqin436.github.io/2020/10/27/git/</loc>
-    <lastmod>2020-10-27</lastmod>
   </url>
 </urlset>

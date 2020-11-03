@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liqin436.github.io/2020/10/27/git/</loc>
+    
+    <lastmod>2020-11-03T11:52:05.538Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liqin436.github.io/2020/11/03/stm32cubemx-jian-dan-shi-yong-jie-shao/</loc>
     
-    <lastmod>2020-11-03T03:20:13.095Z</lastmod>
+    <lastmod>2020-11-03T03:39:06.372Z</lastmod>
     
   </url>
   
@@ -107,13 +114,6 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/2020/10/27/git/</loc>
-    
-    <lastmod>2020-10-27T03:05:04.465Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://liqin436.github.io/AV/index.html</loc>
     
     <lastmod>2020-10-26T12:30:52.610Z</lastmod>
@@ -142,7 +142,7 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/tags/index.html</loc>
+    <loc>https://liqin436.github.io/galleries/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
@@ -156,7 +156,7 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/galleries/index.html</loc>
+    <loc>https://liqin436.github.io/tags/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
