@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://liqin436.github.io/2020/10/27/git/</loc>
-    <lastmod>2020-11-03</lastmod>
+    <loc>https://liqin436.github.io/2020/11/05/gitee-chuan-zuo-ye/</loc>
+    <lastmod>2020-11-05</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/11/03/stm32cubemx-jian-dan-shi-yong-jie-shao/</loc>
+    <lastmod>2020-11-03</lastmod>
+  </url>  <url>
+    <loc>https://liqin436.github.io/2020/10/29/stm32-biao-zhun-ku-xia-zai/</loc>
+    <lastmod>2020-11-03</lastmod>
+  </url>  <url>
+    <loc>https://liqin436.github.io/2020/10/25/zheng-ze-biao-da-shi/</loc>
+    <lastmod>2020-11-03</lastmod>
+  </url>  <url>
+    <loc>https://liqin436.github.io/2020/10/28/dan-pian-ji/</loc>
+    <lastmod>2020-11-03</lastmod>
+  </url>  <url>
+    <loc>https://liqin436.github.io/2020/10/27/git/</loc>
     <lastmod>2020-11-03</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/11/02/chuan-kou-isp-xia-zai-yuan-li/</loc>
@@ -12,9 +24,6 @@
   </url>  <url>
     <loc>https://liqin436.github.io/2020/10/30/stm32-ruan-jian-kai-fa/</loc>
     <lastmod>2020-10-30</lastmod>
-  </url>  <url>
-    <loc>https://liqin436.github.io/2020/10/29/stm32-biao-zhun-ku-xia-zai/</loc>
-    <lastmod>2020-10-29</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/10/28/stm32/</loc>
     <lastmod>2020-10-29</lastmod>
@@ -28,16 +37,10 @@
     <loc>https://liqin436.github.io/2020/10/26/jian-lai-yu-lu/</loc>
     <lastmod>2020-10-28</lastmod>
   </url>  <url>
-    <loc>https://liqin436.github.io/2020/10/28/dan-pian-ji/</loc>
-    <lastmod>2020-10-28</lastmod>
-  </url>  <url>
     <loc>https://liqin436.github.io/2020/10/27/python-pa-chong/</loc>
     <lastmod>2020-10-28</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/10/25/hellow/</loc>
-    <lastmod>2020-10-28</lastmod>
-  </url>  <url>
-    <loc>https://liqin436.github.io/2020/10/25/zheng-ze-biao-da-shi/</loc>
     <lastmod>2020-10-28</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/10/28/hexo-wen-jian-can-shu-ji-qi-xiang-guan-shuo-ming/</loc>
