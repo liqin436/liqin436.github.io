@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-11-08T13:59:44.198Z</updated>
+  <updated>2020-11-15T08:44:02.214Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,93 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Kalilinux破解wifi密码</title>
+    <link href="https://liqin436.github.io/2020/11/15/kalilinux-po-jie-wifi-mi-ma/"/>
+    <id>https://liqin436.github.io/2020/11/15/kalilinux-po-jie-wifi-mi-ma/</id>
+    <published>2020-11-15T08:40:47.000Z</published>
+    <updated>2020-11-15T08:44:02.214Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Kali Linux能做很多事，但是它主要以渗透测试及’破解wifi密码’闻名。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;要求：&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;安装有Kali
+        
+      
+    
+    </summary>
+    
+      <category term="嵌入式" scheme="https://liqin436.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+      <category term="Linux" scheme="https://liqin436.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux修改字体颜色</title>
+    <link href="https://liqin436.github.io/2020/11/15/linux-xiu-gai-zi-ti-yan-se/"/>
+    <id>https://liqin436.github.io/2020/11/15/linux-xiu-gai-zi-ti-yan-se/</id>
+    <published>2020-11-15T08:37:26.000Z</published>
+    <updated>2020-11-15T08:39:55.600Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;linux修改字体颜色&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;仅仅需要几步命令（root身份）：&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;cd &lt;span
+        
+      
+    
+    </summary>
+    
+      <category term="嵌入式" scheme="https://liqin436.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+      <category term="Linux" scheme="https://liqin436.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>嵌入式操作系统基础</title>
+    <link href="https://liqin436.github.io/2020/11/15/qian-ru-shi-cao-zuo-xi-tong-ji-chu/"/>
+    <id>https://liqin436.github.io/2020/11/15/qian-ru-shi-cao-zuo-xi-tong-ji-chu/</id>
+    <published>2020-11-15T07:21:12.000Z</published>
+    <updated>2020-11-15T08:37:36.371Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;1-Linux-操作系统简介&quot;&gt;&lt;a href=&quot;#1-Linux-操作系统简介&quot; class=&quot;headerlink&quot; title=&quot;1.Linux 操作系统简介&quot;&gt;&lt;/a&gt;1.Linux
+        
+      
+    
+    </summary>
+    
+      <category term="嵌入式" scheme="https://liqin436.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+      <category term="Linux" scheme="https://liqin436.github.io/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>剑来文案</title>
@@ -485,33 +572,6 @@
     
     
       <category term="python" scheme="https://liqin436.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MarkDown</title>
-    <link href="https://liqin436.github.io/2020/10/25/hellow/"/>
-    <id>https://liqin436.github.io/2020/10/25/hellow/</id>
-    <published>2020-10-25T02:23:27.000Z</published>
-    <updated>2020-10-28T12:33:47.611Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;主要特性&quot;&gt;&lt;a href=&quot;#主要特性&quot; class=&quot;headerlink&quot; title=&quot;主要特性&quot;&gt;&lt;/a&gt;主要特性&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;支持“标准”Markdown /
-        
-      
-    
-    </summary>
-    
-      <category term="软件安装与配置" scheme="https://liqin436.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
-    
-    
-      <category term="markdown" scheme="https://liqin436.github.io/tags/markdown/"/>
     
   </entry>
   
