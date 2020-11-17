@@ -803,13 +803,13 @@
 <p>3、最常用的ISP方式就是通过串口下载，最主要的优点就是成本低，缺点是只能用于下载程序，不能硬件仿真。</p>
 <p>4、普通ISP和一键ISP，普通ISP在下载程序的时候需要手动配置BOOT的启动方式，而一键ISP则通过独特的硬件电路和上位机配合使用来达到一键下载的功能。</p>
 </blockquote>
-<h2 id="2-硬件连接"><a href="#2-硬件连接" class="headerlink" title="2.硬件连接"></a>2.硬件连接</h2><h3 id="安装USB转串口驱动-CH340"><a href="#安装USB转串口驱动-CH340" class="headerlink" title="安装USB转串口驱动 CH340"></a>安装USB转串口驱动 CH340</h3><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102212652.png" alt=""></p>
-<h3 id="串口下载连接示意图"><a href="#串口下载连接示意图" class="headerlink" title="串口下载连接示意图"></a>串口下载连接示意图</h3><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102212827.png" alt=""></p>
+<h2 id="2-硬件连接"><a href="#2-硬件连接" class="headerlink" title="2.硬件连接"></a>2.硬件连接</h2><h3 id="安装USB转串口驱动-CH340"><a href="#安装USB转串口驱动-CH340" class="headerlink" title="安装USB转串口驱动 CH340"></a>安装USB转串口驱动 CH340</h3><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102212652.png" alt></p>
+<h3 id="串口下载连接示意图"><a href="#串口下载连接示意图" class="headerlink" title="串口下载连接示意图"></a>串口下载连接示意图</h3><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102212827.png" alt></p>
 <p>1、USB转串口模块在开发板上是一个独立的模块，可通过调帽与其他串口连接，USART1/2/3/4/5</p>
 <p>2、只有USART1才具有串口下载的功能</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102212943.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102212943.png" alt></p>
 <p>软件配置如下：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102213104.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102213104.png" alt></p>
 <p>程序下载成功,<br>会自动运行，<br>如果不自动运行，手动按开发板的复位按键即可。</p>
 <h2 id="3-ISP一键下载原理分析"><a href="#3-ISP一键下载原理分析" class="headerlink" title="3.ISP一键下载原理分析"></a>3.ISP一键下载原理分析</h2><table>
 <thead>
@@ -836,8 +836,8 @@
 </tr>
 </tbody></table>
 <p><code>注意：开发板中的BOOT0和BOOT1均通过调帽接GND</code></p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102213533.png" alt=""></p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102213620.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102213533.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201102213620.png" alt></p>
 <p>1、配置BOOT为ISP模式，BOOT1硬件固定为GND。RTS输出低，S8550导通，BOOT0被拉高。<br>2、复位，NRST为低，让系统重新启动进入ISP模式。DTR输出高，S8050导通，NRST被拉到跟RST一样的低电平。<br>3、系统进入ISP模式后，让BOOT0和NRST还原成原来的状态即可。（通过上位机控制RTS和DTR引脚实现）<br>4、ISP下载完毕之后，程序自动运行，（通过上位机控制RTS和DTR引脚实现）</p>
 <h3 id="上位机需要这样设置"><a href="#上位机需要这样设置" class="headerlink" title="上位机需要这样设置"></a>上位机需要这样设置</h3><p>RTS低电平进入BootLoader，DTR高电平进入复位</p>
 <p>232标准（mcuisp软件就是按照这个标准设计的）<br>逻辑1：-3<del>-15V，    逻辑0：+3</del>+15V<br>TTL标准<br>逻辑1：3.3V，          逻辑0：0V</p>
@@ -1610,7 +1610,7 @@ https://lijj.xyz/2020/10/29/s
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">39.8k</span> 字
+                <span class="white-color">40.2k</span> 字
             
 
             
