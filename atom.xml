@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-11-17T02:04:46.397Z</updated>
+  <updated>2020-11-17T02:12:16.096Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>J-Link下载</title>
-    <link href="https://liqin436.github.io/2020/11/17/j-link-xia-zai/"/>
-    <id>https://liqin436.github.io/2020/11/17/j-link-xia-zai/</id>
-    <published>2020-11-17T01:08:35.000Z</published>
-    <updated>2020-11-17T02:04:46.397Z</updated>
+    <title>发布warning:</title>
+    <link href="https://liqin436.github.io/2020/11/17/fa-bu-warning/"/>
+    <id>https://liqin436.github.io/2020/11/17/fa-bu-warning/</id>
+    <published>2020-11-17T02:10:38.000Z</published>
+    <updated>2020-11-17T02:12:16.096Z</updated>
     
     <summary type="html">
     
@@ -29,16 +29,19 @@
       
         
         
-          &lt;h1 id=&quot;1&quot;&gt;&lt;a href=&quot;#1&quot; class=&quot;headerlink&quot; title=&quot;1&quot;&gt;&lt;/a&gt;1&lt;/h1&gt;&lt;p&gt;我们把仿真器（ST-LINK 
+          &lt;p&gt;今天在使用git add 命令的时候，弹出了一个警告 warning: LF will be replaced by CRLF in &lt;strong&gt;**&lt;/strong&gt;（具体的一个文件）&lt;/p&gt;
+&lt;h3 id=&quot;原因&quot;&gt;&lt;a href=&quot;#原因&quot;
         
       
     
     </summary>
     
-      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+      <category term="软件安装与配置" scheme="https://liqin436.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
     
     
-      <category term="stm32" scheme="https://liqin436.github.io/tags/stm32/"/>
+      <category term="github" scheme="https://liqin436.github.io/tags/github/"/>
+    
+      <category term="hexo" scheme="https://liqin436.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -373,9 +376,9 @@
       <category term="软件安装与配置" scheme="https://liqin436.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
     
     
-      <category term="Snipaste" scheme="https://liqin436.github.io/tags/Snipaste/"/>
-    
       <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
+    
+      <category term="Snipaste" scheme="https://liqin436.github.io/tags/Snipaste/"/>
     
   </entry>
   
@@ -401,11 +404,11 @@
       <category term="野生技术产业" scheme="https://liqin436.github.io/categories/%E9%87%8E%E7%94%9F%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A/"/>
     
     
-      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
-    
       <category term="git" scheme="https://liqin436.github.io/tags/git/"/>
     
       <category term="github" scheme="https://liqin436.github.io/tags/github/"/>
+    
+      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
     
   </entry>
   

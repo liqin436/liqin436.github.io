@@ -4,23 +4,25 @@
   
     
     <entry>
-      <title>J-Link下载</title>
-      <link href="/2020/11/17/j-link-xia-zai/"/>
-      <url>/2020/11/17/j-link-xia-zai/</url>
+      <title>发布warning:</title>
+      <link href="/2020/11/17/fa-bu-warning/"/>
+      <url>/2020/11/17/fa-bu-warning/</url>
       
-        <content type="html"><![CDATA[<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><p>我们把仿真器（ST-LINK  V2简称仿真器）尾部有凹槽的那一面朝上看才是正确的方式，因为它总共有10只引脚，上下两层，上层为奇数1，3，5，7，9.下层为偶数2，4，6，8，10.这样从右上角一号引脚开始数数的话每只引脚跟仿真器上面标记的符号是一一对应的，数引脚方式是 从右上角第一个引脚开始，上1下2 左移一位 上3下4 左移一位 上5下6 左移一位上7下8 左移一位 上9下10 如下图所示。</p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201117091932.png" alt=""></p><blockquote><p> 总的来说就是连接ST-LINK的<code>SWCLK</code>,<code>SWDIO</code>,<code>GND</code>,<code>3.3V</code>四个接口和开发板对应的连接口连接</p></blockquote><p>开发板相应的连线到开发板的原理图上去找，<code>SWCLK</code>连接<code>TCLK</code>，<code>SWDIO</code>连接<code>TMS</code>,1号接口连接3.3V，4-20号端口随便一个接地</p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201117092108.png" alt=""></p><blockquote><p>实物图如下</p></blockquote><h1 id=""><a href="#" class="headerlink" title=""></a></h1><p>1.安装STlink驱动</p><p>2.在MDK5中打开需要下载的工程文件</p><p>3.设置</p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20200229001032331.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20200229001105583.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20200229001246429.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20200229001405430.png" alt=""></p><p>4.编译工程文件，下载</p><p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20200229001622798.png" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>今天在使用git add 命令的时候，弹出了一个警告 warning: LF will be replaced by CRLF in <strong>**</strong>（具体的一个文件）</p><h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p><code>LF</code>和<code>CRLF</code>其实都是换行符，但是不同的是，LF是linux和Unix系统的换行符，CRLF是window 系统的换行符。这就给跨平台的协作的项目带来了问题，保存文件到底是使用哪个标准呢？ git为了解决这个问题，提供了一个”<code>换行符自动转换</code>“的功能，并且这个功能是默认处于”自动模式“即开启状态的。<br> 这个<code>换行符自动转换</code>会把自动把你代码里 与你当前操作系统不相同的换行的方式 转换成当前系统的换行方式（即<code>LF</code>和<code>CRLF</code> 之间的转换），这样一来，当你提交代码的时候，即使你没有修改过某个文件，也被git认为你修改过了，从而提示”<code>LF will be replaced by CRLF in *****</code>“</p><h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>最简单的一种办法就是把<code>自动转换功能</code>关掉即可。<br> 输入命令 ：<code>git config core.autocrlf false</code> (仅对当前git仓库有效）<br> <code>git config --global core.autocrlf false</code> (全局有效）</p><p>然后重新提交代码即可。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
           
-          <category> 单片机 </category>
+          <category> 软件安装与配置 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> stm32 </tag>
+            <tag> github </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
@@ -324,9 +326,9 @@
       
         <tags>
             
-            <tag> Snipaste </tag>
-            
             <tag> gitee </tag>
+            
+            <tag> Snipaste </tag>
             
         </tags>
       
@@ -351,11 +353,11 @@
       
         <tags>
             
-            <tag> gitee </tag>
-            
             <tag> git </tag>
             
             <tag> github </tag>
+            
+            <tag> gitee </tag>
             
         </tags>
       
