@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-11-17T02:12:16.096Z</updated>
+  <updated>2020-12-06T04:12:38.162Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML基础</title>
+    <link href="https://liqin436.github.io/2020/12/05/html-ji-chu/"/>
+    <id>https://liqin436.github.io/2020/12/05/html-ji-chu/</id>
+    <published>2020-12-05T15:23:29.000Z</published>
+    <updated>2020-12-06T04:12:38.162Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;网站分为静态和动态，HTML写静态&lt;/p&gt;
+&lt;h2 id=&quot;HTML文档结构&quot;&gt;&lt;a href=&quot;#HTML文档结构&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="hacker" scheme="https://liqin436.github.io/categories/hacker/"/>
+    
+    
+      <category term="html" scheme="https://liqin436.github.io/tags/html/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你好</title>
+    <link href="https://liqin436.github.io/2020/11/26/tie-mu-jun/"/>
+    <id>https://liqin436.github.io/2020/11/26/tie-mu-jun/</id>
+    <published>2020-11-26T09:52:43.000Z</published>
+    <updated>2020-12-06T03:59:20.168Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://liqin436.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="青春" scheme="https://liqin436.github.io/tags/%E9%9D%92%E6%98%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>发布warning:</title>
@@ -402,9 +459,9 @@
       <category term="软件安装与配置" scheme="https://liqin436.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
     
     
-      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
-    
       <category term="Snipaste" scheme="https://liqin436.github.io/tags/Snipaste/"/>
+    
+      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
     
   </entry>
   
@@ -430,11 +487,11 @@
       <category term="野生技术产业" scheme="https://liqin436.github.io/categories/%E9%87%8E%E7%94%9F%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A/"/>
     
     
+      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
+    
       <category term="git" scheme="https://liqin436.github.io/tags/git/"/>
     
       <category term="github" scheme="https://liqin436.github.io/tags/github/"/>
-    
-      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
     
   </entry>
   
@@ -514,62 +571,6 @@
     
     
       <category term="proteus" scheme="https://liqin436.github.io/tags/proteus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python爬虫</title>
-    <link href="https://liqin436.github.io/2020/10/27/python-pa-chong/"/>
-    <id>https://liqin436.github.io/2020/10/27/python-pa-chong/</id>
-    <published>2020-10-27T15:04:13.000Z</published>
-    <updated>2020-10-28T12:34:06.326Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;养成习惯，先赞后看！！！&lt;/strong&gt;&lt;br&gt; 不用于任何商业价值，只是自己娱乐。&lt;br&gt; 否则 &lt;strong&gt;爬虫爬的好，牢饭吃到饱。&lt;/strong&gt;&lt;br&gt; 这是我们这次爬取的网址：&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://liqin436.github.io/categories/python/"/>
-    
-      <category term="爬虫" scheme="https://liqin436.github.io/categories/python/%E7%88%AC%E8%99%AB/"/>
-    
-    
-      <category term="python" scheme="https://liqin436.github.io/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git的一些基本操作</title>
-    <link href="https://liqin436.github.io/2020/10/27/git/"/>
-    <id>https://liqin436.github.io/2020/10/27/git/</id>
-    <published>2020-10-26T16:08:30.000Z</published>
-    <updated>2020-11-03T11:52:05.538Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Git教程&quot;&gt;&lt;a href=&quot;#Git教程&quot; class=&quot;headerlink&quot; title=&quot;Git教程&quot;&gt;&lt;/a&gt;Git教程&lt;/h1&gt;&lt;h2 id=&quot;1-Git简介&quot;&gt;&lt;a href=&quot;#1-Git简介&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="野生技术产业" scheme="https://liqin436.github.io/categories/%E9%87%8E%E7%94%9F%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A/"/>
-    
-    
-      <category term="git" scheme="https://liqin436.github.io/tags/git/"/>
-    
-      <category term="github" scheme="https://liqin436.github.io/tags/github/"/>
     
   </entry>
   
