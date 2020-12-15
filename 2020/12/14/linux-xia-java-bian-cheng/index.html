@@ -6,11 +6,15 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="发布warning:, UESTC CV DeepLearning MachineLearning L.JJ sunhw Hongwei 计算机视觉 深度学习">
+    <meta name="keywords" content="linux下java编程, UESTC CV DeepLearning MachineLearning L.JJ sunhw Hongwei 计算机视觉 深度学习">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
-    <meta name="description" content="今天在使用git add 命令的时候，弹出了一个警告 warning: LF will be replaced by CRLF in **（具体的一个文件）
-原因LF和CRLF其实都是换行符，但是不同的是，LF是linux和Unix系统的换">
+    <meta name="description" content="进入.java目录 我是进入了/root/mingshine/目录 这里放了JavaTest.java文件
+编译：
+ javac JavaTest.java;执行：
+java JavaTest;切记 写的时候，不要写包名!!!!!
+
+   ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -18,7 +22,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>发布warning: | L.JJ的博客</title>
+    <title>linux下java编程 | L.JJ的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -547,13 +551,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        发布warning:
+                        linux下java编程
                     </div>
                 </div>
             </div>
@@ -665,12 +669,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/github/" target="_blank">
-                                <span class="chip bg-color">github</span>
-                            </a>
-                        
-                            <a href="/tags/hexo/" target="_blank">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/Linux/" target="_blank">
+                                <span class="chip bg-color">Linux</span>
                             </a>
                         
                     </div>
@@ -681,8 +681,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/软件安装与配置/" class="post-category" target="_blank">
-                                软件安装与配置
+                            <a href="/categories/java/" class="post-category" target="_blank">
+                                java
                             </a>
                         
                     </div>
@@ -693,7 +693,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-11-17
+                    2020-12-14
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -707,7 +707,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        358
+                        94
                     </div>
                     
 
@@ -731,10 +731,10 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>今天在使用git add 命令的时候，弹出了一个警告 warning: LF will be replaced by CRLF in <strong>**</strong>（具体的一个文件）</p>
-<h3 id="原因"><a href="#原因" class="headerlink" title="原因"></a>原因</h3><p><code>LF</code>和<code>CRLF</code>其实都是换行符，但是不同的是，LF是linux和Unix系统的换行符，CRLF是window 系统的换行符。这就给跨平台的协作的项目带来了问题，保存文件到底是使用哪个标准呢？ git为了解决这个问题，提供了一个”<code>换行符自动转换</code>“的功能，并且这个功能是默认处于”自动模式“即开启状态的。<br> 这个<code>换行符自动转换</code>会把自动把你代码里 与你当前操作系统不相同的换行的方式 转换成当前系统的换行方式（即<code>LF</code>和<code>CRLF</code> 之间的转换），这样一来，当你提交代码的时候，即使你没有修改过某个文件，也被git认为你修改过了，从而提示”<code>LF will be replaced by CRLF in *****</code>“</p>
-<h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>最简单的一种办法就是把<code>自动转换功能</code>关掉即可。<br> 输入命令 ：<code>git config core.autocrlf false</code> (仅对当前git仓库有效）<br> <code>git config --global core.autocrlf false</code> (全局有效）</p>
-<p>然后重新提交代码即可。</p>
+                <p>进入.java目录<br> 我是进入了/root/mingshine/目录 这里放了JavaTest.java文件</p>
+<p>编译：</p>
+<pre><code> javac JavaTest.java;</code></pre><p>执行：</p>
+<pre><code>java JavaTest;</code></pre><p><code>切记 写的时候，不要写包名!!!!!</code></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -903,7 +903,7 @@
                     </span>
                     <a href="https://liqin436.github.io" class="b-link-green">L.JJ的博客</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2020/11/17/fa-bu-warning/" class="b-link-green">发布warning:</a>
+                    <a href="/2020/12/14/linux-xia-java-bian-cheng/" class="b-link-green">linux下java编程</a>
                 </p>
             </div>
 
@@ -1223,49 +1223,53 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/11/26/tie-mu-jun/">
+                <a href="/2020/12/14/linux-xia-java-bian-cheng/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="你好">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="linux下java编程">
                         
-                        <span class="card-title">你好</span>
+                        <span class="card-title">linux下java编程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return
+                            进入.java目录 我是进入了/root/mingshine/目录 这里放了JavaTest.java文件
+编译：
+ javac JavaTest.java;执行：
+java JavaTest;切记 写的时候，不要写包名!!!!!
+
+   
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-11-26
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-12-14
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/随笔/" class="post-category" target="_blank">
-                                    随笔
+                            <a href="/categories/java/" class="post-category" target="_blank">
+                                    java
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/青春/" target="_blank">
-                        <span class="chip bg-color">青春</span>
+                    <a href="/tags/Linux/" target="_blank">
+                        <span class="chip bg-color">Linux</span>
                     </a>
                     
                 </div>
@@ -1279,31 +1283,33 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/11/17/j-link-xia-zai/">
+                <a href="/2020/12/05/html-ji-chu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="J-Link下载">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="HTML基础">
                         
-                        <span class="card-title">J-Link下载</span>
+                        <span class="card-title">HTML基础</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            1我们把仿真器（ST-LINK  V2简称仿真器）尾部有凹槽的那一面朝上看才是正确的方式，因为它总共有10只引脚，上下两层，上层为奇数1，3，5，7，9.下层为偶数2，4，6，8，10.这样从右上角一号引脚开始数数的话每只引脚跟仿真器上面标
+                            网站分为静态和动态，HTML写静态
+HTML文档结构标准的HTML文档是由标签和要显示在网页上的内容组成。HTML用于描述功能的符号称为“标签”，如 &lt;html&gt;、&lt;body&gt;、&lt;table&gt;
+等。HTM
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-11-17
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-12-05
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/单片机/" class="post-category" target="_blank">
-                                    单片机
+                            <a href="/categories/hacker/" class="post-category" target="_blank">
+                                    hacker
                                 </a>
                             
                             
@@ -1313,8 +1319,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/stm32/" target="_blank">
-                        <span class="chip bg-color">stm32</span>
+                    <a href="/tags/html/" target="_blank">
+                        <span class="chip bg-color">html</span>
                     </a>
                     
                 </div>
