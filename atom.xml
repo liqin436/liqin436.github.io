@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2020-12-15T14:15:20.621Z</updated>
+  <updated>2020-12-18T06:54:55.342Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,86 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>创建初始化模板26errors！！！</title>
+    <link href="https://liqin436.github.io/2020/12/18/information/"/>
+    <id>https://liqin436.github.io/2020/12/18/information/</id>
+    <published>2020-12-18T06:41:15.000Z</published>
+    <updated>2020-12-18T06:54:55.342Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;1.按照视频的要求我们是需要将USE_STDPERIPH_DRIVER，STM32F10X_HD两个放到魔术棒的C/C++里面的Preprocessor Symbols的Define里面。&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    
+      <category term="stm32" scheme="https://liqin436.github.io/tags/stm32/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NO Browser Information available&#39;......&#39;的解决方案</title>
+    <link href="https://liqin436.github.io/2020/12/18/no-browser-information/"/>
+    <id>https://liqin436.github.io/2020/12/18/no-browser-information/</id>
+    <published>2020-12-18T04:34:59.000Z</published>
+    <updated>2020-12-18T04:38:09.931Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    
+      <category term="stm32" scheme="https://liqin436.github.io/tags/stm32/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>STM32串口通信</title>
+    <link href="https://liqin436.github.io/2020/12/17/stm32-chuan-kou-tong-xin/"/>
+    <id>https://liqin436.github.io/2020/12/17/stm32-chuan-kou-tong-xin/</id>
+    <published>2020-12-17T14:20:49.000Z</published>
+    <updated>2020-12-18T04:34:20.390Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;​         
+        
+      
+    
+    </summary>
+    
+      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
+    
+    
+      <category term="stm32" scheme="https://liqin436.github.io/tags/stm32/"/>
+    
+  </entry>
   
   <entry>
     <title>基于TCP的socket通信（java）</title>
@@ -481,91 +561,6 @@
         
         
           &lt;h1 id=&quot;STM32-Standard-Peripheral-Libraries&quot;&gt;&lt;a href=&quot;#STM32-Standard-Peripheral-Libraries&quot; class=&quot;headerlink&quot; title=&quot;STM32 Standard
-        
-      
-    
-    </summary>
-    
-      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
-    
-    
-      <category term="stm32" scheme="https://liqin436.github.io/tags/stm32/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>截图工具Snipaste安装和使用</title>
-    <link href="https://liqin436.github.io/2020/10/29/snipaste/"/>
-    <id>https://liqin436.github.io/2020/10/29/snipaste/</id>
-    <published>2020-10-29T08:42:38.000Z</published>
-    <updated>2020-10-29T13:30:01.291Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;软件下载：&lt;/p&gt;&lt;p&gt;Snipaste_32/64位中文版：【&lt;span style=&quot;color: #008000;&quot;&gt;&lt;a style=&quot;color: #008000;&quot; href=&quot;http://www.zhanshaoyi.com/12133.html&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="软件安装与配置" scheme="https://liqin436.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/"/>
-    
-    
-      <category term="Snipaste" scheme="https://liqin436.github.io/tags/Snipaste/"/>
-    
-      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git简述</title>
-    <link href="https://liqin436.github.io/2020/10/29/git-jian-shu/"/>
-    <id>https://liqin436.github.io/2020/10/29/git-jian-shu/</id>
-    <published>2020-10-29T04:13:50.000Z</published>
-    <updated>2020-10-29T13:11:37.749Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;注册gitee账号&quot;&gt;&lt;a href=&quot;#注册gitee账号&quot; class=&quot;headerlink&quot; title=&quot;注册gitee账号&quot;&gt;&lt;/a&gt;注册gitee账号&lt;/h2&gt;&lt;p&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="野生技术产业" scheme="https://liqin436.github.io/categories/%E9%87%8E%E7%94%9F%E6%8A%80%E6%9C%AF%E4%BA%A7%E4%B8%9A/"/>
-    
-    
-      <category term="gitee" scheme="https://liqin436.github.io/tags/gitee/"/>
-    
-      <category term="git" scheme="https://liqin436.github.io/tags/git/"/>
-    
-      <category term="github" scheme="https://liqin436.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【STM32】STM32 CubeMx使用教程一--安装教程</title>
-    <link href="https://liqin436.github.io/2020/10/28/stm32/"/>
-    <id>https://liqin436.github.io/2020/10/28/stm32/</id>
-    <published>2020-10-28T12:06:19.000Z</published>
-    <updated>2020-10-29T13:40:14.592Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;#一、STM32CubeMX 简介&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;1、STM32CubeMX 是 ST 意法半导体近几年来大力推荐的STM32 芯片图形化配置工具，目的就是为了方便开发者， 允许用户使用图形化向导生成C
         
       
     

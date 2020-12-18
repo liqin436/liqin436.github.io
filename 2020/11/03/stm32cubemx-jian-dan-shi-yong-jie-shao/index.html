@@ -749,39 +749,39 @@ LL:底层">
 <li>准备硬件（开发板stm32f103c8t6,ST-Link下载器）</li>
 </ul>
 <h2 id="创建工程"><a href="#创建工程" class="headerlink" title="创建工程"></a>创建工程</h2><p><strong>1.打开STM32CubeMX，进入MCU选择器</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103104447.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103104447.png" alt=""></p>
 <p>进入选择器时会联网更新数据库，可能需要等待一下。</p>
 <p><strong>2.选择对应型号MCU</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103104726.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103104726.png" alt=""></p>
 <p><strong>3.时钟源选择</strong><br>如果选择使用外部高速时钟（HSE），则需要在System Core中配置RCC（如下图）。如果使用默认内部时钟（HSI），这一步可以略过。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103105119.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103105119.png" alt=""></p>
 <p><strong>4.选择GPIO（LED）引脚</strong><br>我们这里使用一个GPIO引脚（PA0，PC13）控制LED亮灭。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103105338.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103105338.png" alt=""></p>
 <p><strong>5.配置时钟Clock</strong><br>STM32CubeMX配置时钟的界面非常方便，有很多提示（比如最大时钟），很多地方直接点击选择就行了。</p>
 <p>默认高速时钟是使用内部（HSI），而且CPU时钟配置的比较低。以我选择的STM32F103，外部8M晶振为例（如下图）。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103105702.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103105702.png" alt=""></p>
 <p><strong>6.工程管理</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103110046.png" alt></p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20190809190430193.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103110046.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20190809190430193.png" alt=""></p>
 <p>将HAL库的所有.C和.H都复制到所建工程中 </p>
 <p><strong>优点：这样如果后续需要新增其他外设又可能不再用STM32CubeMX的时候便会很方便</strong></p>
 <p><strong>缺点： 体积大，编译时间长(很长)</strong></p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20190809190647833.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20190809190647833.png" alt=""></p>
 <p>只复制所需要的.C和.H  (<strong>推荐</strong>)</p>
 <p><strong>优点：体积相对小，编译时间短，并且工程可复制拷贝</strong></p>
 <p><strong>缺点： 新增外设时需要重新用STM32CubeMX导入</strong> </p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20190809190846747.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://img-blog.csdnimg.cn/20190809190846747.png" alt=""></p>
 <p>不复制文件，直接从软件包存放位置导入.C和.H </p>
 <p><strong>优点：体积小，比较节约硬盘空间</strong></p>
 <p><strong>缺点： 复制到其他电脑上或者软件包位置改变，就需要修改相对应的路径</strong>  </p>
 <p>自行选择方式即可</p>
 <p>工程管理器的内容比较多，大部分都默认即可，这里讲述几个要点（如下图），更多选项后期详细讲述。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103110636.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103110636.png" alt=""></p>
 <p>IDE有几种，如果你不用MDK-ARM，也可选择其他IDE。</p>
 <p><strong>7.生成代码</strong><br>以上操作就基本配置完成了一个简单的Demo工程，只需要点击“生成代码”即可。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103110847.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103110847.png" alt=""></p>
 <p><strong>8.添加代码</strong><br>当然，以上生成的代码还不够完善，需要<strong>添加自己的应用代码</strong>。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103111935.png" alt></p>
+<p><img src="https://cdn.jsdelivr.net/gh/shw2018/cdn@1.0/sakura/img/loader/orange.progress-bar-stripe-loader.svg" data-original="https://gitee.com/the-light-of-the-world/blogimage/raw/master/img/20201103111935.png" alt=""></p>
 <p>添加如上图这样一段代码，你开发板上LED就会间隔500ms变化一次（呈现闪烁状态）。</p>
 <p>添加应用代码：</p>
 <pre><code>
@@ -1545,7 +1545,7 @@ HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_8);</code></pre><p><strong>提示：</strong>
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">46.3k</span> 字
+                <span class="white-color">46.9k</span> 字
             
 
             
@@ -1773,5 +1773,5 @@ $(function () {
             </script>
         
 
-    <script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
 </html>
