@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://liqin436.github.io/2020/10/27/python-pa-chong/</loc>
+    <lastmod>2020-12-21</lastmod>
+  </url>  <url>
+    <loc>https://liqin436.github.io/2020/12/18/no-browser-information/</loc>
+    <lastmod>2020-12-21</lastmod>
+  </url>  <url>
     <loc>https://liqin436.github.io/2020/12/17/stm32-chuan-kou-tong-xin/</loc>
     <lastmod>2020-12-19</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/12/18/information/</loc>
-    <lastmod>2020-12-18</lastmod>
-  </url>  <url>
-    <loc>https://liqin436.github.io/2020/12/18/no-browser-information/</loc>
     <lastmod>2020-12-18</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/12/15/ji-yu-tcp-de-socket-tong-xin-java/</loc>
@@ -32,9 +35,6 @@
     <lastmod>2020-11-15</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/11/15/linux-xiu-gai-zi-ti-yan-se/</loc>
-    <lastmod>2020-11-15</lastmod>
-  </url>  <url>
-    <loc>https://liqin436.github.io/2020/11/15/qian-ru-shi-cao-zuo-xi-tong-ji-chu/</loc>
     <lastmod>2020-11-15</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/11/08/jian-lai-wen-an/</loc>
@@ -80,9 +80,6 @@
     <lastmod>2020-10-29</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/10/26/jian-lai-yu-lu/</loc>
-    <lastmod>2020-10-28</lastmod>
-  </url>  <url>
-    <loc>https://liqin436.github.io/2020/10/27/python-pa-chong/</loc>
     <lastmod>2020-10-28</lastmod>
   </url>  <url>
     <loc>https://liqin436.github.io/2020/10/25/hellow/</loc>

@@ -733,8 +733,8 @@
 <ul>
 <li>ST-Link支持一键烧录但是和J-Link还是有差异的，首先是支持的型号不大相同，还有就是J-Link支持在线调试的同时可以一起串口调试而ST-Link不行。</li>
 </ul>
-<h1 id="一-初始化串口Init-UART"><a href="#一-初始化串口Init-UART" class="headerlink" title="一.初始化串口Init_UART"></a>一.初始化串口Init_UART</h1><h2 id="1-打开串口所对应的GPIO时钟"><a href="#1-打开串口所对应的GPIO时钟" class="headerlink" title="1.打开串口所对应的GPIO时钟"></a>1.打开串口所对应的GPIO时钟</h2><pre class="line-numbers language-c"><code class="language-c"><span class="token function">RCC_APB2PeriphResetCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_GPIOA<span class="token punctuation">,</span> ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="2-打开串口所对应时钟"><a href="#2-打开串口所对应时钟" class="headerlink" title="2.打开串口所对应时钟"></a>2.打开串口所对应时钟</h2><pre class="line-numbers language-c"><code class="language-c"><span class="token function">RCC_APB2PeriphResetCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_USART1<span class="token punctuation">,</span> ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h1 id="一-初始化串口Init-UART"><a href="#一-初始化串口Init-UART" class="headerlink" title="一.初始化串口Init_UART"></a>一.初始化串口Init_UART</h1><h2 id="1-打开串口所对应的GPIO时钟"><a href="#1-打开串口所对应的GPIO时钟" class="headerlink" title="1.打开串口所对应的GPIO时钟"></a>1.打开串口所对应的GPIO时钟</h2><pre class="line-numbers language-c"><code class="language-c"><span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_GPIOA<span class="token punctuation">,</span> ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="2-打开串口所对应时钟"><a href="#2-打开串口所对应时钟" class="headerlink" title="2.打开串口所对应时钟"></a>2.打开串口所对应时钟</h2><pre class="line-numbers language-c"><code class="language-c"><span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_USART1<span class="token punctuation">,</span> ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="3-设置GPIO模式（结构体）GPIO-INIT"><a href="#3-设置GPIO模式（结构体）GPIO-INIT" class="headerlink" title="3.设置GPIO模式（结构体）GPIO_INIT"></a>3.设置GPIO模式（结构体）GPIO_INIT</h2><p>TX推挽输出PA9</p>
 <pre class="line-numbers language-c"><code class="language-c">GPIO_InitStruct<span class="token punctuation">.</span>GPIO_Mode <span class="token operator">=</span> GPIO_Mode_AF_PP<span class="token punctuation">;</span>
 GPIO_InitStruct<span class="token punctuation">.</span>GPIO_Pin <span class="token operator">=</span> GPIO_Pin_9<span class="token punctuation">;</span>
@@ -1357,7 +1357,7 @@ USART_InitStruct<span class="token punctuation">.</span>USART_WordLength <span c
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            NO Browser Information available
 解决方案
 一、打开魔术棒
 
@@ -1365,8 +1365,7 @@ USART_InitStruct<span class="token punctuation">.</span>USART_WordLength <span c
 
 三、重新编译就可以了
 重点是重新编译，解决各个文件不能相互关联的问题
-
-        document.querySelectorAll('.gith
+No target
                         
                     </div>
                     <div class="publish-info">
@@ -1619,7 +1618,7 @@ USART_InitStruct<span class="token punctuation">.</span>USART_WordLength <span c
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">47.8k</span> 字
+                <span class="white-color">43.6k</span> 字
             
 
             
@@ -1847,5 +1846,5 @@ $(function () {
             </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
+    <script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
 </html>
