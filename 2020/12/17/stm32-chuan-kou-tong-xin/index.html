@@ -10,7 +10,9 @@
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY">
     <meta name="description" content="
-​          前一段时间总感觉力不从心，无论是干什么都没状态，学的知识越多就越感觉自己是个TFW。就比如有些人是从小就接触一些专业知识的，他们在某些方面就特别有天赋，学什么东西都快，自己是学不过他们的，就会有一些无力感。但是今天忽">
+ST-Link支持一键烧录但是和J-Link还是有差异的，首先是支持的型号不大相同，还有就是J-Link支持在线调试的同时可以一起串口调试而ST-Link不行。
+
+一.初始化串口Init_UART1.打开串口所对应的GPIO时钟RCC_A">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -703,7 +705,7 @@
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        1.1k
+                        994
                     </div>
                     
 
@@ -727,10 +729,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <blockquote>
-<p>​          <code>前一段时间总感觉力不从心，无论是干什么都没状态，学的知识越多就越感觉自己是个TFW。就比如有些人是从小就接触一些专业知识的，他们在某些方面就特别有天赋，学什么东西都快，自己是学不过他们的，就会有一些无力感。但是今天忽然意识到，虽然努力不一定追得上，但不努力就一定在退步了。所以啊，加油吧，年轻人。</code></p>
-</blockquote>
-<ul>
+                <ul>
 <li>ST-Link支持一键烧录但是和J-Link还是有差异的，首先是支持的型号不大相同，还有就是J-Link支持在线调试的同时可以一起串口调试而ST-Link不行。</li>
 </ul>
 <h1 id="一-初始化串口Init-UART"><a href="#一-初始化串口Init-UART" class="headerlink" title="一.初始化串口Init_UART"></a>一.初始化串口Init_UART</h1><h2 id="1-打开串口所对应的GPIO时钟"><a href="#1-打开串口所对应的GPIO时钟" class="headerlink" title="1.打开串口所对应的GPIO时钟"></a>1.打开串口所对应的GPIO时钟</h2><pre class="line-numbers language-c"><code class="language-c"><span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_GPIOA<span class="token punctuation">,</span> ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -1618,7 +1617,7 @@ No target
 
             
                 &nbsp; | &nbsp;字数统计:&nbsp;
-                <span class="white-color">43.6k</span> 字
+                <span class="white-color">43.9k</span> 字
             
 
             
@@ -1846,5 +1845,5 @@ $(function () {
             </script>
         
 
-    <script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script></body>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
 </html>
