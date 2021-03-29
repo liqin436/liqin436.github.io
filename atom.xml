@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liqin436.github.io/"/>
-  <updated>2021-01-06T14:26:46.300Z</updated>
+  <updated>2021-03-29T13:34:56.119Z</updated>
   <id>https://liqin436.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linu三级</title>
+    <link href="https://liqin436.github.io/2021/03/29/linu-san-ji/"/>
+    <id>https://liqin436.github.io/2021/03/29/linu-san-ji/</id>
+    <published>2021-03-29T13:23:25.000Z</published>
+    <updated>2021-03-29T13:34:56.119Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;先说说这次的三级考试感受吧，毕竟是第一年的三级，没题的痛苦真的就是太难受了，复习起来感觉啥都是重点，考起试来啥啥都不考，难怪说计算机三级的含金量不高呢，做题基本四到五分钟选择题就可以做完，然后，后面大题真的就是MMP了，真的复习的都不考，考纲还给我划这么大，出的
+        
+      
+    
+    </summary>
+    
+      <category term="计算机三级" scheme="https://liqin436.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%89%E7%BA%A7/"/>
+    
+    
+      <category term="Linux" scheme="https://liqin436.github.io/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>被讨厌的勇气</title>
@@ -540,32 +567,6 @@
         
           &lt;p&gt;&lt;strong&gt;&lt;em&gt;stm32f103c8t6&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h1 id=&quot;MDK-Keil开发环境&quot;&gt;&lt;a href=&quot;#MDK-Keil开发环境&quot; class=&quot;headerlink&quot; title=&quot;MDK
-        
-      
-    
-    </summary>
-    
-      <category term="单片机" scheme="https://liqin436.github.io/categories/%E5%8D%95%E7%89%87%E6%9C%BA/"/>
-    
-    
-      <category term="stm32" scheme="https://liqin436.github.io/tags/stm32/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>stm32标准库下载</title>
-    <link href="https://liqin436.github.io/2020/10/29/stm32-biao-zhun-ku-xia-zai/"/>
-    <id>https://liqin436.github.io/2020/10/29/stm32-biao-zhun-ku-xia-zai/</id>
-    <published>2020-10-29T13:11:03.000Z</published>
-    <updated>2020-11-03T12:43:30.755Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;STM32-Standard-Peripheral-Libraries&quot;&gt;&lt;a href=&quot;#STM32-Standard-Peripheral-Libraries&quot; class=&quot;headerlink&quot; title=&quot;STM32 Standard
         
       
     

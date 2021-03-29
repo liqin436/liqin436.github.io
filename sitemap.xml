@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liqin436.github.io/2021/03/29/linu-san-ji/</loc>
+    
+    <lastmod>2021-03-29T13:34:56.119Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liqin436.github.io/2021/01/06/bei-tao-yan-de-yong-qi/</loc>
     
     <lastmod>2021-01-06T14:26:46.300Z</lastmod>
@@ -247,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/categories/index.html</loc>
+    <loc>https://liqin436.github.io/galleries/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
@@ -261,14 +268,14 @@
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/tags/index.html</loc>
+    <loc>https://liqin436.github.io/categories/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liqin436.github.io/galleries/index.html</loc>
+    <loc>https://liqin436.github.io/tags/index.html</loc>
     
     <lastmod>2020-06-30T18:09:44.000Z</lastmod>
     
